@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Library_system\bin\Debug\Library_System.exe.config
+C:\Users\User\source\repos\Library_system\bin\Debug\Library_System.exe
+C:\Users\User\source\repos\Library_system\bin\Debug\Library_System.pdb
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.Login.resources
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.Properties.Resources.resources
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.exe
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.pdb
+C:\Users\User\source\repos\Library_system\bin\Debug\Guna.UI2.dll
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.csproj.CopyComplete

@@ -16,5 +16,10 @@ namespace Library_System
         {
             InitializeComponent();
         }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
