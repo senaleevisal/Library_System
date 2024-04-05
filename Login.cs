@@ -19,7 +19,24 @@ namespace Library_System
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+        Register register = new Register();
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            register.Show();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            guna2TextBox1.Text = string.Empty;
+            guna2TextBox2.Text = string.Empty;  
         }
     }
 }
