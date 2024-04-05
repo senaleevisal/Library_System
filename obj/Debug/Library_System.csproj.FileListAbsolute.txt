@@ -11,3 +11,4 @@ C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.exe
 C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.pdb
 C:\Users\User\source\repos\Library_system\bin\Debug\Guna.UI2.dll
 C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.csproj.CopyComplete
+C:\Users\User\source\repos\Library_system\obj\Debug\Library_System.Register.resources
