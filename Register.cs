@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,14 +14,14 @@ namespace Library_System
 {
     public partial class Register : Form
     {
-        public  Register()
+        public Register()
         {
             InitializeComponent();
         }
-        public static String name ;
+        public static String name;
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            
+
         }
         public void clean()
         {
@@ -32,7 +33,7 @@ namespace Library_System
         {
             clean();
         }
-        
+
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -57,7 +58,15 @@ namespace Library_System
 
             if (string.IsNullOrEmpty(username))
             {
+                guna2TextBox1.Focus();
+                guna2TextBox1.BorderColor = Color.Red;
                 MessageBox.Show("Please enter a username.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+
+            }
+            if (guna2TextBox2.Text != guna2TextBox3.Text)
+            {
+                MessageBox.Show("Please enter a password correctly.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -111,6 +120,32 @@ namespace Library_System
             SqlConnection connection = new SqlConnection(connectionString);
             return connection;
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                guna2TextBox2.UseSystemPasswordChar = false;
+                guna2TextBox3.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                guna2TextBox2.UseSystemPasswordChar = true;
+                guna2TextBox3.UseSystemPasswordChar = true;
+
+            }
+        }
+
+        private void Register_Load(object sender, EventArgs e)
+        {
+            guna2TextBox2.UseSystemPasswordChar = true;
+            guna2TextBox3.UseSystemPasswordChar = true;
+        }
+
+        private void guna2TextBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
-    }
+}
 
