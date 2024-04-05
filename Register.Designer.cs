@@ -107,7 +107,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2Button2.Location = new System.Drawing.Point(45, 373);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(223, 30);
             this.guna2Button2.TabIndex = 15;
@@ -128,7 +128,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(45, 320);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(223, 30);
             this.guna2Button1.TabIndex = 16;
@@ -141,7 +141,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.ForeColor = System.Drawing.Color.Silver;
             this.checkBox1.Location = new System.Drawing.Point(174, 299);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(102, 17);
             this.checkBox1.TabIndex = 14;
@@ -198,7 +198,7 @@
             this.guna2TextBox2.Font = new System.Drawing.Font("MS UI Gothic", 10.2F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Location = new System.Drawing.Point(6, 90);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -222,7 +222,7 @@
             this.guna2TextBox3.Font = new System.Drawing.Font("MS UI Gothic", 10.2F);
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.Location = new System.Drawing.Point(6, 145);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
             this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -253,7 +253,7 @@
             this.guna2Panel1.Controls.Add(this.guna2TextBox3);
             this.guna2Panel1.Location = new System.Drawing.Point(45, 99);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(259, 195);
+            this.guna2Panel1.Size = new System.Drawing.Size(241, 195);
             this.guna2Panel1.TabIndex = 21;
             // 
             // guna2TextBox1
@@ -271,7 +271,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("MS UI Gothic", 10.2F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(6, 31);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
